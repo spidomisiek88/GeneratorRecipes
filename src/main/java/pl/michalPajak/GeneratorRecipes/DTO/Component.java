@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Objects;
 
 public class Component {
-    String name;
-    List<Macroelement> macroelements;
-    int quantity;
+    private String name;
+    private List<Macroelement> macroelements;
+    private int quantity;
 
     public Component() {
         this.name = "";

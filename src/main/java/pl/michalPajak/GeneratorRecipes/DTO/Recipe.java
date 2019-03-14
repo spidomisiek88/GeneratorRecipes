@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Objects;
 
 public class Recipe {
-    String topic;
-    String description;
-    List<Tool> tools;
-    List<Component> components;
+    private String topic;
+    private String description;
+    private List<Tool> tools;
+    private List<Component> components;
 
     public Recipe(String topic, String description) {
         this.topic = topic;

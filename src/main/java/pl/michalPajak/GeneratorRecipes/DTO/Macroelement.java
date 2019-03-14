@@ -5,8 +5,8 @@ import pl.michalPajak.GeneratorRecipes.enums.MacroelementType;
 import java.util.Objects;
 
 public class Macroelement {
-    MacroelementType macroelementType;
-    int quantityKcal;
+    private MacroelementType macroelementType;
+    private int quantityKcal;
 
     public Macroelement(MacroelementType macroelementType, int quantityKcal) {
         this.macroelementType = macroelementType;
